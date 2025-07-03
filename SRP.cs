@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 // SRP (Single Responsibility Principle)
 // Violação:
-namespace SOLID.SRP.Violacao.Models
+namespace SOLID.SRP.Violacao
 {
     public class Funcionario
     {
@@ -18,7 +18,7 @@ namespace SOLID.SRP.Violacao.Models
 }
 
 // Solução:
-namespace SOLID.SRP.Solucao.Models
+namespace SOLID.SRP.Solucao
 {
     public class Funcionario
     {
